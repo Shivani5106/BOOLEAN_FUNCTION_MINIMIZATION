@@ -32,7 +32,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-' ' '
+```
 module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
 input A,B,C,D,W,X,Y,Z;
 wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
@@ -50,12 +50,12 @@ assign x10=(W)&(X)&(Y);
 assign F1=x1|x2|x3|x4|x5;
 assign F2=x6|x7|x8|x9|x10;
 endmodule
-'''
+```
 
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+ Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: Shivani M RegisterNumber: 24003648*/
+Developed by: Shivani M RegisterNumber: 24003648
 **Truth Table:**
 ![Screenshot 2024-11-26 104124](https://github.com/user-attachments/assets/df0c9735-a524-4152-8128-c9af79e6611c)
 ![Screenshot 2024-11-26 104221](https://github.com/user-attachments/assets/6cd546d4-e0fc-462c-82a6-1e3adb6fdf0a)
